@@ -65,3 +65,39 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # portfolio-laravel
+
+
+Database : portfolio
+user: nayemhowlader77@gmail.com
+pass:ranamama26
+
+Installation
+This project needs to be cloned first in order to operate.
+
+$ git clone https://github.com/NayemHowlader/portfolio-laravel.git
+You will need to be inside the project file to enter all of the rest of the commands. Type cd projectName to move to your terminal working location to the project file.
+
+In this case:
+
+cd Library_System
+Install the dependencies and devDependencies and start the server. You can also download the composer if not installed beforehand here
+
+$ composer update
+$ npm install
+cp .env.example .env
+cp .env.example .env
+php artisan key:generate
+In order to connect to the database:
+
+Create a database
+Locate to the database folder for a database file Vue_Laravel_MongoDB_Billing_Info\database\informations.json
+Import the json file in the mongoDB database
+In the .env file, fill out the DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, and DB_PASSWORD options to match the credentials of the database.
+Enter this to the command line :
+
+php artisan migrate
+php artisan serve
+npm run dev 
+or
+
+npm run watch 
